@@ -11,4 +11,7 @@ for k in liste:
     print("There are repeating elements",k)
     break
   else:
-   pass
+   print("There aren't repeating elements")
+   break
+   
+
