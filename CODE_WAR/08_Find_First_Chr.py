@@ -16,5 +16,5 @@ fruit = ["Apple", "Banana", "Pear", "Apricot", "Orange"]
 
 a=(map(lambda x: x[:1],fruit))
 
- word="".join(a)
- print(word)
+word="".join(a)
+print(word)
