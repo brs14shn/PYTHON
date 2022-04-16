@@ -5,6 +5,7 @@
 #Sample list: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n']
 
 liste = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n']
+
 def list_slice(S, step):
     return [S[i::step] for i in range(step)]
 print(list_slice(liste,3))
