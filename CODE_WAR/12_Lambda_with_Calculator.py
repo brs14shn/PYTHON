@@ -1,5 +1,5 @@
 
-calculator={"+":lambda x,y:x+y, #12
+calculator={"+":lambda x,y:x+y, 
             "-":lambda x,y:x-y,
             "*":lambda x,y:x*y,
             "/":lambda x,y:x/y
