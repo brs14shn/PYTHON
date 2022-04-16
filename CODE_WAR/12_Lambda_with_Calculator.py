@@ -8,3 +8,4 @@ print(calculator["+"](15,5))
 print(calculator["-"](15,5))
 print(calculator["*"](15,5))
 print(calculator["/"](15,5))
+
