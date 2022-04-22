@@ -3,7 +3,7 @@
 
 str1 = input("Please Enter your Own String : ")
 
-##input==>>The grass is always greener on the other side of the fence.
+# input==>>The grass is always greener on the other side of the fence.
 
 str2 = ''
 
