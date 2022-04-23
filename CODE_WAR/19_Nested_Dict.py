@@ -6,8 +6,8 @@ liste3=[85, 98, 89, 92]
 
 #Step-1:"Define a three parameter def function"
 #Step-2:"Use zip function to access each iterator elements"
-#Step-3:"Dictionary comprehension"
-def nested_dictionary(liste1,lsite2, liste3):
+#Step-3:"List comprehension"
+def nested_dictionary(liste1,liste2, liste3):
      result = [{x: {y: z}} for (x, y, z) in zip(liste1,lsite2, liste3)]
      return result
 
