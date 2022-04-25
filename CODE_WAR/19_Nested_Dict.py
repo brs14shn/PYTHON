@@ -8,7 +8,7 @@ liste3=[85, 98, 89, 92]
 #Step-2:"Use zip function to access each iterator elements"
 #Step-3:"List comprehension"
 def nested_dictionary(liste1,liste2, liste3):
-     result = [{x: {y: z}} for (x, y, z) in zip(liste1,lsite2, liste3)]
+     result = [{x: {y: z}} for (x, y, z) in zip(liste1,liste2, liste3)]
      return result
 
 print(nested_dictionary(liste1,liste2, liste3))
